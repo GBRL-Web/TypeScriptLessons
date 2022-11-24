@@ -19,13 +19,36 @@ function money(inputAmount: number) {
       }
     }
   }
-  let counts: object = {};
+  interface Counts {
+    500: number;
+    200: number;
+    20: number;
+    10: number;
+    5: number;
+    2: number;
+    0.5: number;
+    0.02: number;
+    0.01: number;
+
+  };
+  let countx: Counts = {
+    500: 0,
+    200: 0,
+    20: 0,
+    10: 0,
+    5: 0,
+    2: 0,
+    0.5: 0,
+    0.02: 0,
+    0.01: 0,
+
+  }
   for (let num of coinsToReturn) {
     {
-      counts[num] = counts[num] ? counts[num] + 1 : 1;
+      countx[Number(num)] = countx[num] ? countx[num] + 1 : 1;
     }
     for (let i = 0; i < moneyBills.length; i++) {
-        console.log(moneyBills[i] +" x "+ counts[moneyBills[i]]);
+        console.log(moneyBills[i] +" x "+ countx[moneyBills[i]]);
     }
   }
 }
