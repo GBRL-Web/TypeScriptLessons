@@ -1,0 +1,4 @@
+
+function money(value:number) {
+        
+}
