@@ -1,5 +1,5 @@
 /**
- *  Simple function to output the highest number from the inputted numbers.
+ *  Simple function to output the highest number from the 3 inputted numbers.
  * @param a |
  * @param b } Single numerical values to compare
  * @param c |
