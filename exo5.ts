@@ -3,7 +3,7 @@
  * @param number - Input of multiple numerical values. By default is an array.
  * @returns - Highest numerical value from the input array of numbers.
  */
-function getHighest(...number:number[]):number {
+export function getHighest(...number:number[]):number {
     return Math.max(...number);
 }
 

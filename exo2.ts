@@ -5,7 +5,7 @@
  * @returns - Number representing the sum of the two numbers.
  */
 
-function calc(x:number, y:number):number {
+export function calc(x:number, y:number):number {
     return x + y;
 }
 console.log("6 + 4 = " + calc(6, 4));

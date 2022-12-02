@@ -3,7 +3,7 @@
  * @param name - The name to be greeted.
  * @returns String "Hello name!"
  */
-function hello(name:string):string {
+export function hello(name:string):string {
     return `Hello ${name}!`;    
 }
 console.log(hello('Gabriel'));

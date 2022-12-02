@@ -5,7 +5,7 @@
  * @returns - A text representing gain, loss or none of them.
  */
 
-function checkPrice(prodPrice: number, sellPrice: number): string {
+export function checkPrice(prodPrice: number, sellPrice: number): string {
     let result: number = prodPrice - sellPrice;
     if (result < 0) {
         return "You are at a loss of: $" + Math.abs(result);

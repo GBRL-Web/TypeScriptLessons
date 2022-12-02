@@ -5,7 +5,7 @@
  * @param c |
  * @returns - The highest number from the three values
  */
-function getMax(a: number, b: number, c:number): number {
+export function getMax(a: number, b: number, c:number): number {
     let numArr: Array<number> = [a, b, c];
     return Math.max(...numArr);
 }

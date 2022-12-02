@@ -41,7 +41,7 @@ function getMessage(grade: number): string {
  * @returns - A string containing the name, average grade and a string response to the student's average grade.
  */
 
-function studGrade(name: string, ...grades: number[]): string {
+export function studGrade(name: string, ...grades: number[]): string {
   let medGrade: number = getMed(...grades);
   return `${name}: ${medGrade} - ${getMessage(medGrade)}`;
 }

@@ -5,7 +5,7 @@
  * @param c - Operator.
  * @returns - The result of the operation.
  */
-function calc(a: number, b: number, c: string): number {
+export function calc(a: number, b: number, c: string): number {
   let result: number = 0;
   if (c === "+") {
     result = a + b;

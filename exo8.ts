@@ -3,7 +3,7 @@
  * @param num - The length of the piramid
  * @param char - Charater used to fill the piramid
  */
-function makePiramid(num:number, char:string) {
+export function makePiramid(num:number, char:string) {
     for (var i = 0; i < num; i++) {
         console.log(char.repeat(i));
     }
@@ -11,6 +11,3 @@ function makePiramid(num:number, char:string) {
         console.log(char.repeat(j));
     }
 }
-
-makePiramid(6, "*");
-makePiramid(9, "+");
